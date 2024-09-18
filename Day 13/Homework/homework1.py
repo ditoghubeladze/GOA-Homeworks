@@ -17,5 +17,4 @@ for i in range(8):
 user_name = input("Enter your name: ")
 
 for i in range(5):
-    print(f"Hello {user_name}")
-    
+    print(f"Hello {user_name}!")
