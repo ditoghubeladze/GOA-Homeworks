@@ -1,0 +1,86 @@
+header {
+    background-image: url(photos/Goa\ background\ copy.jpg);
+    color: limegreen;
+    padding: 10px;
+    
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+
+.section1 ul {
+
+    background-color:#222222;
+    color:#ffffff;
+    border-radius: 2cap;
+    border-style: outset;
+    }
+    
+    
+ h2 {
+
+   text-align: center;
+   color:#222222;
+        
+  }
+
+
+  video {
+
+    text-align:center;
+    border-radius:10px;
+    
+    }
+
+    .socials  h1 {
+
+        color:darkgreen;
+        position:absolute;
+        top:910px;
+        left:35px;
+        
+        }
+        
+        .socials ul {
+        
+            background-color:#222222;
+            color:#ffffff;
+            border-radius: 2cap;
+            border-style: outset;
+        }
+        
+        .socials button {
+        
+        font-size:20px;
+        background-color:grey;
+        color:lightblue;
+        border-radius:25px;
+        
+        position:absolute;
+        
+        }
+
+        .socials h2 {
+
+            color:white;
+        }
+        
+    
+    input {
+        display: block;
+        margin: 10px 0;
+        padding: 8px;
+        width: 100%;
+        max-width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    button {
+        padding: 8px 16px;
+        border: none;
+        background-color: #007BFF;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+    }

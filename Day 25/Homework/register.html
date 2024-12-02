@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank - Register</title>
+    <style>
+        /* Reuse the same CSS as in index.html */
+        body, header, nav, footer, main {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header { background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; }
+        nav { text-align: center; background-color: #333; padding: 10px 0; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-size: 18px; }
+        nav a:hover { text-decoration: underline; }
+        main { padding: 20px; text-align: center; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px 0; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Register</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Log In</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <h2>Create Your Account</h2>
+        <form>
+            <p>
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name">
+            </p>
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email">
+            </p>
+            <p>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password">
+            </p>
+            <p>
+                <button type="submit">Register</button>
+            </p>
+        </form>
+    </main>
+    <footer>
+        &copy; 2024 Bank. All Rights Reserved.
+    </footer>
+</body>
+</html>
