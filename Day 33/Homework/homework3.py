@@ -3,5 +3,5 @@
 def find_smallest(numbers):
     return min(numbers)
 
-nums = [34, 12, 56, 8, 19]
+nums = [34, 125, 536, 38, 1912]
 print(find_smallest(nums))

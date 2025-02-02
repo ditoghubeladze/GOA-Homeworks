@@ -1,0 +1,22 @@
+ul {
+    list-style-type:square;
+
+}
+
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    font-size: 16px;
+    color: #f60c0c;
+}
+
+input[type="submit"] {
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #8c8e90;
+}

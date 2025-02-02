@@ -3,10 +3,8 @@
 
 name = input("Enter your name:")
 
-
-def speller(name):
+def spell(name):
      result = name[::-1]
      print(result)
     
-
-speller(name)
+spell(name)

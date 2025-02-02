@@ -7,12 +7,12 @@ def list(numbers):
     
     ma = max(numbers)
     mi = min(numbers)
-    to = sum(numbers)
+    summ = sum(numbers)
     le = len(numbers)
 
     print("მაქსი", ma)
     print("მინი:", mi)
-    print(" ჯამი:", to)
+    print(" ჯამი:", summ)
     print(" სიგრძე:", le)
 
 
