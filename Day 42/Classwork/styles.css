@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-image: url('goaa.jpg'), url('guts.png'); 
+    background-size: cover, 100px; 
+    background-position: center, top right; 
+    background-repeat: no-repeat, no-repeat; 
+    border: 5px solid rgb(174, 255, 0);
+    box-shadow: 10px 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+
+.container:hover {
+    width: 550px;
+    height: 550px;
+    transition: 1s;
+}
+
+.child {
+    width: 150px;
+    height: 150px;
+    background-image: url('guts.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
