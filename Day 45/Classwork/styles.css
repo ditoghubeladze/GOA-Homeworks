@@ -1,0 +1,12 @@
+.cube {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: animation 3s;
+}
+
+@keyframes animation
+ {
+    50% { transform: translate(-50%, -50%) scale(0.5); }
+    100% { transform: translate(-50%, -50%) scale(0.5) rotate(360deg); }
+}
