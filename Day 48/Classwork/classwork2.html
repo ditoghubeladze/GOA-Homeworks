@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classwork 2</title>
+    <style>
+        .cube {
+            width: 200px;
+            height: 200px;
+             background-color: red; 
+             animation: kubiki 4s ease-in-out forwards;
+         }
+
+         @keyframes kubiki {
+             0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(0.3);
+      }
+
+      100% {
+        transform: scale(0.3) rotate(360deg); 
+      }
+    }
+    </style>
+</head>
+<body>
+
+    <div class="cube"></div>
+    
+</body>
+</html>
