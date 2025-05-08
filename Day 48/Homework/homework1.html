@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>homework</title>
+  <style>
+    #photo1, #photo2 {
+      width: 300px;
+      transition: width 0.3s;
+    }
+    button {
+      margin: 5px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Homework</h1>
+
+  <img id="photo1" src="goaa.jpg" alt="idk">
+  <br>
+  <img id="photo2" src="goa1212.jpg" alt="idk">
+  <br><br>
+
+  <button onclick="alert('bombardiro crocodilo')">alert</button>
+  <button onclick="document.getElementById('photo1').style.width='500px'">size change</button>
+  <button onclick="document.getElementById('photo2').style.width='150px'">size change 2</button>
+  <button onclick="document.getElementById('photo1').src='goa1212.jpg'">change img</button>
+  <button onclick="document.getElementById('photo2').src='goaa.jpg'">change img 2</button>
+
+  <button onclick="document.querySelector('button:nth-of-type(2)').style.backgroundColor='lightblue'">change backgroundა</button>
+
+</body>
+</html>
