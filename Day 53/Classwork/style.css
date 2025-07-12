@@ -1,0 +1,49 @@
+    body {
+      background-color: #131313;
+      font-family: sans-serif;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+    }
+
+    .lesson-card {
+      background-color: #302e2e;
+      padding: 20px 30px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 500px;
+    }
+
+    .lesson-left {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .lesson-icon img {
+      width: 28px;
+      height: 28px;
+    }
+
+    .lesson-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .lesson-info span:first-child {
+      color: gray;
+      font-size: 14px;
+    }
+
+    .lesson-info span:last-child {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .checkmark img {
+      width: 20px;
+      height: 20px;
+    }
