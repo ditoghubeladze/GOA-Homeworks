@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Impact, Arial, sans-serif;
+  background-color: #003300;
+  color: #ffa726;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.logo {
+  font-size: 20px;
+  color: #ffa726;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  text-align: left;
+}
+
+.logo .top {
+  transform: rotate(-15deg);
+  margin-bottom: 4px;
+}
+
+.logo .bottom {
+  transform: rotate(15deg);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu button {
+  background-color: #ffa726;
+  color: #002800;
+  font-weight: bold;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 #00000033;
+}
+
+.burger {
+  background-color: #ffa726;
+  color: #002800;
+  padding: 8px 14px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+main {
+  padding: 50px 30px;
+}
+
+main h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffa726;
+  text-transform: uppercase;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}

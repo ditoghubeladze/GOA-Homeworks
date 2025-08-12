@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wild Thingz</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #03240f;
+      font-family: 'Georgia', serif;
+      color: white;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+    }
+    .logo {
+      font-family: 'Comic Sans MS', cursive;
+      font-size: 2rem;
+      color: #00ff66;
+    }
+    .buttons {
+      display: flex;
+      gap: 1rem;
+    }
+    .btn {
+      padding: 0.6rem 1.2rem;
+      border-radius: 999px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .btn.contact {
+      background-color: #ccff33;
+    }
+    .btn.shop {
+      background-color: #00cc33;
+      color: white;
+    }
+    .main-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      min-height: 80vh;
+      padding: 2rem;
+      position: relative;
+    }
+    .text {
+      font-size: 3rem;
+      line-height: 1.2;
+      max-width: 600px;
+      font-weight: bold;
+    }
+    .plant {
+      position: absolute;
+      right: 5%;
+      bottom: 0;
+      max-width: 300px;
+    }
+    @media (max-width: 768px) {
+      .text {
+        font-size: 2rem;
+      }
+      .plant {
+        position: static;
+        margin-top: 2rem;
+        max-width: 200px;
+      }
+      .main-content {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">Wild Thingz</div>
+    <div class="buttons">
+      <button class="btn contact">Contact</button>
+      <button class="btn shop">Shop Now</button>
+    </div>
+  </div>
+  <div class="main-content">
+    <div class="text">
+      No artificial.<br />
+      No apologies.
+    </div>
+    <img src="ac46a755-bcdc-4c2e-87f7-c5ce0262af34.png" alt="Plant" class="plant" />
+  </div>
+</body>
+</html>
